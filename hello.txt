@@ -1,0 +1,23 @@
+package com.samoiliknata;
+
+import java.util.Scanner;
+
+public class Privet1 {
+
+        public static void main(String [] args) {
+            System.out.print("Введите число: ");
+
+
+            Scanner sc = new Scanner (System.in);
+            int num= sc.nextInt();
+            if (num>7) {
+                System.out.println("Привет");
+            } else {
+                System.out.println("Пока");
+
+            }
+
+        }
+
+
+}
